@@ -128,3 +128,56 @@
     font-size: 2rem;
   }
 }
+
+.introHome-cont {
+  background-color: #E7816B;
+  width: 90% !important;
+  font-family: "Jost", sans-serif;
+  margin: 5%;
+  height: 650px;
+}
+
+.introHome-cont .bg-intro {
+  position: absolute;
+  left: 55%;
+}
+
+.introHome-cont .text-col {
+  padding: 10%;
+}
+
+.introHome-cont .text-col h3 {
+  color: #FFFFFF;
+  font-family: "Jost", sans-serif;
+  font-size: 48px;
+  line-height: 3rem;
+}
+
+.introHome-cont .text-col p {
+  margin: 8% 0;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.introHome-cont .text-col .introHome-btn {
+  height: 50px;
+  border-radius: 7px;
+  font-family: "Jost", sans-serif;
+  width: 150px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 1px solid #FFFFFF;
+  color: #1D1C1E;
+}
+
+.introHome-cont .text-col .introHome-btn:hover {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #FFAD9B;
+  background-color: #FFAD9B;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.introHome-cont .img-col {
+  text-align: center;
+}

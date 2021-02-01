@@ -135,3 +135,50 @@ $body: 16px;
         }
     }
 }
+
+//------------------IntroHome component-------------------------------------
+.introHome-cont {
+    background-color: $peach;
+    width: 90% !important;
+    font-family: $font-family;
+    margin: 5%;
+    height: 650px;
+    .bg-intro {
+        position: absolute;
+        left: 55%;
+    }
+    .text-col {
+        padding: 10%;
+        h3 {
+            color: $white;
+            font-family: $font-family;
+            font-size: $h1;
+            line-height: 3rem;
+        }
+        p {
+            margin: 8% 0;
+            color: $white;
+            font-size: $body;
+        }
+        .introHome-btn {
+            height: 50px;
+            border-radius: 7px;
+            font-family: $font-family;
+            width: 150px;
+            font-weight: 500;
+            text-transform: uppercase;
+            border: 1px solid $white;
+            color: $black;
+            &:hover {
+                transition: all 0.3s ease-in-out;
+                border: 1px solid $light-peach;
+                background-color: $light-peach;
+                color: $white;
+                cursor: pointer;
+            }
+        }
+    }
+    .img-col {
+        text-align: center;
+    }
+}
