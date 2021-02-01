@@ -1,8 +1,13 @@
 import React from 'react'
+import Cta from '../Cta';
+import LocationInfo from '../LocationInfo';
 
 function Locations(){
     return(
-        <div>Locations component</div>
+        <div>
+            <LocationInfo></LocationInfo>
+            <Cta></Cta>
+        </div>
     )
 }
 export default Locations;
