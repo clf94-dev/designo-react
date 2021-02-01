@@ -140,8 +140,9 @@ $body: 16px;
 .introHome-cont {
     background-color: $peach;
     width: 90% !important;
+    border-radius: 10px;
     font-family: $font-family;
-    margin: 5%;
+    margin: 5% 5% 0 5%;
     height: 650px;
     .bg-intro {
         position: absolute;
@@ -180,5 +181,15 @@ $body: 16px;
     }
     .img-col {
         text-align: center;
+        img {
+            width: 90%;
+        }
     }
+}
+
+//------------------------------------MiddleHome component------------------------
+.middleHome-cont {
+    background-color: $white !important;
+    z-index: 5 !important;
+    padding: 5%;
 }

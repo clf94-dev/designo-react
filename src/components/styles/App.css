@@ -132,8 +132,9 @@
 .introHome-cont {
   background-color: #E7816B;
   width: 90% !important;
+  border-radius: 10px;
   font-family: "Jost", sans-serif;
-  margin: 5%;
+  margin: 5% 5% 0 5%;
   height: 650px;
 }
 
@@ -180,4 +181,14 @@
 
 .introHome-cont .img-col {
   text-align: center;
+}
+
+.introHome-cont .img-col img {
+  width: 90%;
+}
+
+.middleHome-cont {
+  background-color: #FFFFFF !important;
+  z-index: 5 !important;
+  padding: 5%;
 }
