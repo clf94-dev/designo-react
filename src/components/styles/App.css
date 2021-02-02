@@ -335,3 +335,26 @@
   font-size: 16px;
   letter-spacing: 4px;
 }
+
+.features-cont {
+  padding: 5% 7%;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  color: #333136;
+}
+
+.features-cont .feat-col {
+  padding: 0% 4%;
+}
+
+.features-cont .feat-col h3 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+.features-cont .feat-col p {
+  font-size: 16px;
+  line-height: 26px;
+}
