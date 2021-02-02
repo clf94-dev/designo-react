@@ -199,11 +199,20 @@
 
 .middleHome-cont .webDesign-col {
   border-radius: 10px;
-  padding: 3% 5%;
+  padding: 3% 2% 0% 2%;
+}
+
+.middleHome-cont .webDesign-col:hover {
+  cursor: pointer;
+}
+
+.middleHome-cont .webDesign-col:hover .overlay {
+  opacity: 0.7;
 }
 
 .middleHome-cont .webDesign-col .backg {
   width: 100%;
+  height: 100%;
   border-radius: 10px;
   z-index: -1;
 }
@@ -211,7 +220,7 @@
 .middleHome-cont .webDesign-col .web-text {
   position: absolute;
   left: 19%;
-  top: 145%;
+  top: 150%;
   z-index: 3;
 }
 
@@ -228,15 +237,101 @@
 .middleHome-cont .webDesign-col .overlay {
   position: absolute;
   top: 112.7%;
-  left: 9.5%;
-  height: 81.7%;
-  width: 36%;
+  left: 6.8%;
+  height: 100.3%;
+  width: 41.4%;
   opacity: 0;
   transition: .5s ease;
   border-radius: 10px;
   background-color: #E7816B;
 }
 
-.middleHome-cont .webDesign-col:hover .overlay {
+.middleHome-cont .graph-cont {
+  padding: 2% 2% 0% 0 !important;
+}
+
+.middleHome-cont .graph-cont:hover {
+  cursor: pointer;
+}
+
+.middleHome-cont .graph-cont:hover .overlay-graph {
   opacity: 0.7;
+}
+
+.middleHome-cont .graph-cont .overlay-graph {
+  position: absolute;
+  top: 164%;
+  right: 5.9%;
+  height: 48.2%;
+  width: 44.1%;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 10px;
+  background-color: #E7816B;
+}
+
+.middleHome-cont .app-graphic-cont {
+  border-radius: 10px;
+  padding: 2.8% 2% 1% 0;
+}
+
+.middleHome-cont .app-graphic-cont:hover {
+  cursor: pointer;
+}
+
+.middleHome-cont .app-graphic-cont:hover .overlay {
+  opacity: 0.7;
+}
+
+.middleHome-cont .app-graphic-cont .backg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.middleHome-cont .app-graphic-cont .app-text {
+  position: absolute;
+  right: 19%;
+  top: 127%;
+  z-index: 3;
+}
+
+.middleHome-cont .app-graphic-cont .app-text h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.middleHome-cont .app-graphic-cont .app-text p {
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+
+.middleHome-cont .app-graphic-cont .overlay {
+  position: absolute;
+  top: 112.7%;
+  right: 5.9%;
+  height: 48.2%;
+  width: 44.1%;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 10px;
+  background-color: #E7816B;
+}
+
+.middleHome-cont .app-graphic-cont .graphic-text {
+  position: absolute;
+  right: 19%;
+  top: 180%;
+  z-index: 3;
+}
+
+.middleHome-cont .app-graphic-cont .graphic-text h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.middleHome-cont .app-graphic-cont .graphic-text p {
+  font-size: 16px;
+  letter-spacing: 4px;
 }

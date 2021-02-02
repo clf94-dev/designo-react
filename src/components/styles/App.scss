@@ -198,16 +198,23 @@
         font-family: $font-family;
         .webDesign-col {
             border-radius: 10px;
-            padding: 3% 5%;
+            padding: 3% 2% 0% 2%;
+            &:hover {
+                cursor: pointer;
+                .overlay {
+                    opacity: 0.7;
+                }
+            }
             .backg {
                 width: 100%;
+                height: 100%;
                 border-radius: 10px;
                 z-index: -1;
             }
             .web-text {
                 position: absolute;
                 left: 19%;
-                top: 145%;
+                top: 150%;
                 z-index: 3;
                 h2 {
                     font-size: $h2;
@@ -221,17 +228,87 @@
             .overlay {
                 position: absolute;
                 top: 112.7%;
-                left: 9.5%;
-                height: 81.7%;
-                width: 36%;
+                left: 6.8%;
+                height: 100.3%;
+                width: 41.4%;
                 opacity: 0;
                 transition: .5s ease;
                 border-radius: 10px;
                 background-color: $peach;
             }
+        }
+        .graph-cont {
+            padding: 2% 2% 0% 0 !important;
             &:hover {
+                cursor: pointer;
+                .overlay-graph {
+                    opacity: 0.7;
+                }
+            }
+            .overlay-graph {
+                position: absolute;
+                top: 164%;
+                right: 5.9%;
+                height: 48.2%;
+                width: 44.1%;
+                opacity: 0;
+                transition: .5s ease;
+                border-radius: 10px;
+                background-color: $peach;
+            }
+        }
+        .app-graphic-cont {
+            border-radius: 10px;
+            padding: 2.8% 2% 1% 0;
+            &:hover {
+                cursor: pointer;
                 .overlay {
                     opacity: 0.7;
+                }
+            }
+            .backg {
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                z-index: -1;
+            }
+            .app-text {
+                position: absolute;
+                right: 19%;
+                top: 127%;
+                z-index: 3;
+                h2 {
+                    font-size: $h2;
+                    margin-bottom: 30px;
+                }
+                p {
+                    font-size: $body;
+                    letter-spacing: 4px;
+                }
+            }
+            .overlay {
+                position: absolute;
+                top: 112.7%;
+                right: 5.9%;
+                height: 48.2%;
+                width: 44.1%;
+                opacity: 0;
+                transition: .5s ease;
+                border-radius: 10px;
+                background-color: $peach;
+            }
+            .graphic-text {
+                position: absolute;
+                right: 19%;
+                top: 180%;
+                z-index: 3;
+                h2 {
+                    font-size: $h2;
+                    margin-bottom: 30px;
+                }
+                p {
+                    font-size: $body;
+                    letter-spacing: 4px;
                 }
             }
         }
