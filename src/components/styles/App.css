@@ -132,6 +132,7 @@
 .introHome-cont {
   background-color: #E7816B;
   width: 90% !important;
+  overflow: hidden;
   border-radius: 10px;
   font-family: "Jost", sans-serif;
   margin: 5% 5% 0 5%;
@@ -191,4 +192,51 @@
   background-color: #FFFFFF !important;
   z-index: 5 !important;
   padding: 5%;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Jost", sans-serif;
+}
+
+.middleHome-cont .webDesign-col {
+  border-radius: 10px;
+  padding: 3% 5%;
+}
+
+.middleHome-cont .webDesign-col .backg {
+  width: 100%;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.middleHome-cont .webDesign-col .web-text {
+  position: absolute;
+  left: 19%;
+  top: 145%;
+  z-index: 3;
+}
+
+.middleHome-cont .webDesign-col .web-text h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.middleHome-cont .webDesign-col .web-text p {
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+
+.middleHome-cont .webDesign-col .overlay {
+  position: absolute;
+  top: 112.7%;
+  left: 9.5%;
+  height: 81.7%;
+  width: 36%;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 10px;
+  background-color: #E7816B;
+}
+
+.middleHome-cont .webDesign-col:hover .overlay {
+  opacity: 0.7;
 }

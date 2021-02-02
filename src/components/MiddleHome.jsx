@@ -13,11 +13,13 @@ function MiddleHome(){
         <div>
             <Grid container direction="row" className="middleHome-cont">
                 <Grid item xs={12} md={6} className="webDesign-col">
-<img src={WebDesigD} alt="Web Design"/>
 <div className="web-text">
     <h2>WEB DESIGN</h2>
     <p>VIEW PROJECTS <img src={Arrow} alt="Arrow"/></p>
-</div>
+
+</div> <div className="overlay"/>
+<img className="backg" src={WebDesigD} alt="Web Design"/>
+
 
                 </Grid>
                 <Grid item xs={12} md={6} className="appGraphic-col">
