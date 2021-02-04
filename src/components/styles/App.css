@@ -337,10 +337,17 @@
 }
 
 .features-cont {
-  padding: 5% 7%;
+  padding: 5% 7% 10% 7%;
+  margin-bottom: 10%;
   text-align: center;
   font-family: "Jost", sans-serif;
   color: #333136;
+}
+
+@media screen and (max-width: 485px) {
+  .features-cont {
+    margin-bottom: 30%;
+  }
 }
 
 .features-cont .feat-col {
@@ -360,7 +367,7 @@
 }
 
 .cta-cont {
-  margin: 5% 9%;
+  margin: 5% 10%;
   overflow: hidden;
   width: 80% !important;
   background-color: #E7816B;
@@ -368,13 +375,21 @@
   font-family: "Jost", sans-serif;
   color: #FFFFFF;
   padding: 5%;
+  position: absolute;
+  top: 275%;
+  /* .circles {
+            height: 600px;
+            position: absolute;
+            right: 11%;
+            top: 277%;
+        }*/
 }
 
-.cta-cont .circles {
-  height: 600px;
-  position: absolute;
-  right: 11%;
-  top: 277%;
+@media screen and (max-width: 485px) {
+  .cta-cont {
+    position: absolute;
+    top: 360%;
+  }
 }
 
 .cta-cont .text-col {
@@ -385,22 +400,34 @@
   font-size: 40px;
   line-height: 2.5rem;
   margin-bottom: 20px;
-  margin-right: 40%;
+  text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+  .cta-cont .text-col h2 {
+    margin-right: 40%;
+    text-align: start;
+  }
 }
 
 .cta-cont .text-col p {
   font-size: 16px;
-  margin-right: 15%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  .cta-cont .text-col p {
+    margin-right: 15%;
+    text-align: start;
+  }
 }
 
 .cta-cont .btn-col {
-  float: top;
+  text-align: center;
 }
 
 .cta-cont .btn-col .cta-btn {
-  position: relative;
-  top: 30%;
-  left: 50%;
   height: 50px;
   border-radius: 7px;
   font-family: "Jost", sans-serif;
@@ -410,6 +437,14 @@
   background-color: #FFFFFF;
   border: 1px solid #FFFFFF;
   color: #1D1C1E;
+}
+
+@media screen and (min-width: 1000px) {
+  .cta-cont .btn-col .cta-btn {
+    position: relative;
+    top: 30%;
+    left: 50%;
+  }
 }
 
 .cta-cont .btn-col .cta-btn:hover {
@@ -422,8 +457,14 @@
 
 .footer-cont {
   background-color: #333136;
-  padding: 10% 7%;
+  padding: 11% 7% 5% 7%;
   font-family: "Jost", sans-serif;
+}
+
+@media screen and (max-width: 485px) {
+  .footer-cont {
+    padding-top: 45%;
+  }
 }
 
 .footer-cont .links-row {

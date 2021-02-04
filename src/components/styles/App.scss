@@ -316,7 +316,11 @@
     
     //----------------------FeaturesHome comp --------------------
     .features-cont {
-        padding: 5% 7%;
+        padding: 5% 7% 10% 7%;
+        margin-bottom: 10%;
+        @media screen and (max-width: 485px) {
+            margin-bottom: 30%;
+        }
         text-align: center;
         font-family: $font-family;
         color: $dark-grey;
@@ -337,7 +341,7 @@
     
     //----------------------Cta section ------------------
     .cta-cont {
-        margin: 5% 9%;
+        margin: 5% 10%;
         overflow: hidden;
         width: 80% !important;
         background-color: $peach;
@@ -345,31 +349,48 @@
         font-family: $font-family;
         color: $white;
         padding: 5%;
-        .circles {
+        position: absolute;
+        top: 275%;
+        @media screen and (max-width: 485px) {
+            position: absolute;
+            top: 360%;
+        }
+        /* .circles {
             height: 600px;
             position: absolute;
             right: 11%;
             top: 277%;
-        }
+        }*/
         .text-col {
             float: top;
             h2 {
                 font-size: $h2;
                 line-height: 2.5rem;
                 margin-bottom: 20px;
-                margin-right: 40%;
+                text-align: center;
+                @media screen and (min-width: 1000px) {
+                    margin-right: 40%;
+                    text-align: start;
+                }
             }
             p {
                 font-size: $body;
-                margin-right: 15%;
+                text-align: center;
+                margin-bottom: 20px;
+                @media screen and (min-width: 1000px) {
+                    margin-right: 15%;
+                    text-align: start;
+                }
             }
         }
         .btn-col {
-            float: top;
+            text-align: center;
             .cta-btn {
-                position: relative;
-                top: 30%;
-                left: 50%;
+                @media screen and (min-width: 1000px) {
+                    position: relative;
+                    top: 30%;
+                    left: 50%;
+                }
                 height: 50px;
                 border-radius: 7px;
                 font-family: $font-family;
@@ -393,8 +414,11 @@
     //-------------------------Footer section -----------------------------------
     .footer-cont {
         background-color: $dark-grey;
-        padding: 10% 7%;
+        padding: 11% 7% 5% 7%;
         font-family: $font-family;
+        @media screen and (max-width: 485px) {
+            padding-top: 45%;
+        }
         .links-row {
             @media screen and (max-width: 485px) {
                 text-align: center !important;
